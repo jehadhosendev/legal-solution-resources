@@ -1,0 +1,6 @@
+/* .inter{
+    font-family: "Inter", sans-serif;
+} */
+@theme{
+    --font-sans: "inter", sans-serif;
+}

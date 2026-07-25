@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.font-inter {
+    font-family: "inter", sans-serif;
+}
+.font-garamond {
+    font-family: 'EB Garamond', serif;
+}
