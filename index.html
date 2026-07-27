@@ -13,16 +13,16 @@
         rel="stylesheet">
 </head>
 <body class="font-garamond">
-    <nav class="w-full max-w-6xl flex items-center justify-between mx-auto py-16">
+    <nav class="w-full max-w-6xl lg:flex md:flex items-center justify-between mx-auto py-16 sm:text-center">
 
         <!-- logo style and markap -->
-        <div class="flex items-center gap-3 ">
-            <img src="images/logo2.png" alt="">
+        <div>
+            <img class="sm:mb-4 m-auto" src="images/logo2.png" alt="">
         </div>
 
         <!-- menu style and markap -->
         <div>
-            <ul class="flex gap-7 font-inter text-base text-[#707070]">
+            <ul class="flex gap-7 font-inter text-base text-[#707070] sm:justify-center sm:mb-4">
                 <li><a href="">Home</a></li>
                 <li><a href="">Services  ></a></li>
                 <li><a href="">Cases  ></a></li>
@@ -37,7 +37,7 @@
     <main class="w-full max-w-6xl m-auto font-inter pb-32.25">
         <section>
             <!-- banner style and markap -->
-            <div class="bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-center h-auto relative rounded-lg"> 
+            <div class="bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-center w-full h-auto relative rounded-lg"> 
 
                 <!-- banner shadow -->
                 <img src="images/Rectangle 5.png" alt="" class="absolute bottom-0 left-0 w-full h-full object-cover pointer-events-none rounded-lg">
@@ -45,7 +45,7 @@
                 <!-- <div class="absolute inset-0 bg-linear-to-b from-transparent via-black/50 to-black/90 pointer-events-none rounded-lg"></div> -->
                 
                  <!-- banner container -->
-               <div class="text-center m-auto py-26 px-59.75 relative">
+               <div class="text-center m-auto md:py-26 lg:py-26 sm:py-4 lg:px-59.75 md:px-59.75 relative">
                 <h1 class="text-[72px] text-[#FFFFFF] font-garamond font-extrabold leading-21.25 mb-6">We Provide Effective Legal Solutions</h1>
 
                 <p class="text-[#E7E7E7] mb-8 text-base leading-6.5 font-inter">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
@@ -54,7 +54,7 @@
 
                 <!-- shearch box and button -->
                     <form class="flex gap-6 justify-center items-center">
-                    <input class="text-lg bg-[#FFFFFF] text-[#A0A0A0] py-4 px-4 w-full max-w-125 rounded-lg leading-6.5 outline-none" type="text" placeholder="Search your services">
+                    <input class="text-lg bg-[#FFFFFF] text-[#A0A0A0] py-4 px-4 w-full max-w-125 sm:max-w-100 rounded-lg leading-6.5 outline-none" type="text" placeholder="Search your services">
 
                     <button class="text-lg bg-[#B68C5A] px-9.75 py-4 rounded-lg">Search</button>
                     </form>
@@ -76,9 +76,9 @@
             
             <!-- Practice Area card -->
 
-            <div class="mt-16 grid grid-cols-3 divide-y-2 divide-x-2  divide-solid divide-[#E7E7E7]">
+            <div class="mt-16 grid grid-cols-3 sm:grid-cols-1  lg:divide-y-2 md:divide-y-2 lg:divide-x-2 md:divide-x-2  divide-solid divide-[#E7E7E7]">
                 
-                <div class="py-14 px-20">
+                <div class="py-14 px-20 ">
                     <img class="m-auto mb-8" src="images/business.png" alt="">
 
                     <h4 class="font-garamond text-[32px] font-extrabold text-[#414040] mb-6">Business Law</h4>
@@ -87,7 +87,7 @@
                     <img class="m-auto" src="images/Frame.png" alt="">
                 </div>
                 <div class="py-14 px-20 relative">
-                    <div class="absolute inset-0 bg-linear-to-b from-black/10 via-black/5 to-transparent pointer-events-none rounded-lg">
+                    <div class="absolute inset-0 bg-linear-to-b lg:from-black/10 md:from-black/10 lg:via-black/5 md:via-black/5 to-transparent pointer-events-none rounded-lg">
                     </div>
                     <img class="m-auto mb-8" src="images/criminal.png" alt="">
                     <h4 class="font-garamond text-[32px] font-extrabold text-[#414040] mb-6" >Criminal Law</h4>
@@ -139,7 +139,7 @@
                 <img  src="images/Rectangle 7.png" alt="" class="absolute bottom-0  left-0 w-full h-full object-cover rounded-lg">
 
                 <!-- What Our Client Say ayer content-->
-                <div class="absolute w-full m-auto py-24">
+                <div class="absolute w-full m-auto lg:py-24 md:py-24 sm:pt-16">
                     <img class="rounded-full w-32 h-32 m-auto " src="images/jehad.jpg" alt="">
 
                     <h4 class="text-[24px] text-[#ffffff] pt-6 font-garamond">Md Jehad hosen</h4>
@@ -151,7 +151,7 @@
                     <</div>
                     <div class="text-[#ffffff] text-[24px]">></div>
                 </div>
-                    <p class="text-lg leading-6.5 text-[#F3F3F3] font-inter font-normal px-33.75 pb-10">Contrary to popular belief, Lorem Ipsum is not
+                    <p class="text-lg leading-6.5 text-[#F3F3F3] font-inter font-normal lg:px-33.75 md:px-33.75 sm:px-4 pb-10">Contrary to popular belief, Lorem Ipsum is not
                     simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
@@ -166,16 +166,16 @@
           </section>
 
           <!-- Frequently Asked Any Questions -->
-           <section class="w-full m-auto pt-32.25">
+           <section class="w-full m-auto pt-32.25 sm:text-center">
                 <h4 class="text-[40px] font-extrabold text-[#414040] font-garamond text-center mb-6">Frequently Asked Any Questions</h4>
                 <p class="text-base text-[#707070] pb-13.75  max-w-178.5 m-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
                 by injected humour.</p>
-                <div class="w-full max-w-292.5 lg:flex">
+                <div class="w-full max-w-292.5 lg:flex md:flex">
                     <div class="">
 
                         <div class="bg-[#F3F3F3] pl-8 py-8 w-full mb-7.5 rounded-lg">
-                            <ol class="flex items-center gap-8">
-                                <li type="1" class="font-garamond ml-7 text-[24px] font-extrabold text-[#414040]">Are application fee waivers available?</li>
+                            <ol class="flex items-center gap-8 sm:justify-center">
+                                <li type="1" class="font-garamond ml-7 text-[24px] font-extrabold text-[#414040] ">Are application fee waivers available?</li>
                                 <div class="text-6xl font-thin pb-1">-</div>
                             </ol>
                             <p class="pr-15 text-base text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
@@ -183,27 +183,27 @@
                         </div>
 
                     <div class="bg-[#F3F3F3] pl-8 py-8 w-full mb-7.5 rounded-lg">
-                        <ol class="flex items-center gap-8">
+                        <ol class="flex items-center gap-8 sm:justify-center">
                             <li type="1" class="font-garamond ml-7 text-[24px] font-extrabold text-[#414040]">Are application fee waivers available?</li>
                             <div class="text-6xl font-thin pb-1">+</div>
                         </ol>
                     </div>
 
                         <div class="bg-[#F3F3F3] pl-8 py-8 w-full mb-7.5 rounded-lg">
-                            <ol class="flex items-center gap-8">
+                            <ol class="flex items-center gap-8 sm:justify-center">
                                 <li type="1" class="font-garamond ml-7 text-[24px] font-extrabold text-[#414040]">Are application fee waivers available?</li>
                                 <div class="text-6xl font-thin pb-1">+</div>
                             </ol>
                         </div>
 
                         <div class="bg-[#F3F3F3] pl-8 py-8 w-full mb-7.5 rounded-lg">
-                            <ol class="flex items-center gap-8">
+                            <ol class="flex items-center gap-8 sm:justify-center">
                                 <li type="1" class="font-garamond ml-7 text-[24px] font-extrabold text-[#414040]">Are application fee waivers available?</li>
                                 <div class="text-6xl font-thin pb-1">+</div>
                             </ol>
                         </div>
                     </div>
-                    <img class="ml-7.5" src="images/faq.png" alt="">
+                    <img class="ml-7.5 sm:m-auto" src="images/faq.png" alt="">
                 </div>
            </section>
 
@@ -214,14 +214,14 @@
                 by injected humour.</p>
 
                 <div class="lg:flex">
-                    <div class="grid grid-cols-2 mx-w-[570px] divide-x-2 divide-y-2 divide-[#CFCFCF]">
-                        <div class="max-w-71.25 text-center bg-[#F3F3F3] px-10 py-15">
+                    <div class="grid grid-cols-2 w-full mx-w-[570px] lg:divide-x-2 md:divide-x-2 lg:divide-y-2 md:divide-y-2 divide-[#CFCFCF] sm:px-16 sm:mb-8">
+                        <div class="max-w-71.25 w-full sm:mb-4 text-center bg-[#F3F3F3] px-10 py-15">
                             <img class="m-auto pb-4" src="images/location.png" alt="">
                             <h5 class="text-[#414040] text-2xl font-extrabold font-garamond pb-4">Address</h5>
                             <p class="text-base text-[#707070]">A108 Adam Street,
                             New York, NY 535022</p>
                         </div>
-                        <div class="max-w-71.25 text-center bg-[#F3F3F3] px-10 py-15 border-r-0">
+                        <div class="max-w-71.25 text-center bg-[#F3F3F3] px-10 py-15 border-r-0 sm:mb-4">
                             <img class="m-auto pb-4" src="images/call.png" alt="">
                             <h5 class="text-[#414040] text-2xl font-extrabold font-garamond pb-4">Address</h5>
                             <p class="text-base text-[#707070]">A108 Adam Street,
@@ -240,7 +240,7 @@
                             New York, NY 535022</p>
                         </div>
                     </div>
-                    <form class="ml-7.5 max-w-142.5">
+                    <form class="ml-7.5 max-w-142.5 sm:m-auto">
                         <input type="text" name="name" id="name" placeholder="Your name" class="bg-[#F3F3F3] mb-7.5 py-5.75 pl-5.75 pr-114.5 rounded-lg max-w-142.5 text-base text-[#707070] outline-none">
                         <br>
                         <input type="email" name="email" id="email" placeholder="Your email" class="bg-[#F3F3F3] mb-7.5 py-5.75 pl-5.75 pr-114.5 rounded-lg max-w-142.5 text-base text-[#707070] outline-none">
@@ -254,8 +254,8 @@
             </section>
     </main>
 
-    <footer class="py-32.25 bg-[#111111]">
-        <div class="grid grid-cols-4 w-full max-w-289.75 m-auto gap-10 items-center">
+    <footer class="py-32.25 sm:pt-8 bg-[#111111]">
+        <div class="grid grid-cols-4 w-full max-w-289.75 m-auto gap-10 items-center sm:grid-cols-2 sm:gap-0 sm:px-8">
             <div class="w-full max-w-64.75 m-auto">
                 <img class="mb-9" src="images/logo.png" alt="">
                 <p class="text-base text-[#CFCFCF] leading-6.5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
@@ -271,7 +271,7 @@
                 <p>Contact U</p>
                 </div>
             </div>
-            <div>
+            <div class="sm:pl-8">
                 <h5 class="text-2xl font-extrabold text-[#FFFFFF] mb-8 pt-5">Contact Now</h5>
                 <div class="w-full max-w-50 text-base text-[#CFCFCF] leading-6.5">
                     <p class="mb-1">555 4th 5t NW, Washington
